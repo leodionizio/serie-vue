@@ -18,7 +18,4 @@ h1 {
   margin: 40px 0 0;
   font-size: 18px;
 }
-p {
-  font-size: 14px;
-}
 </style>
