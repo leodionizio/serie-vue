@@ -1,5 +1,5 @@
-import HomePage from './pages/HomePage'
-import AboutPage from './pages/AboutPage'
+const HomePage = () => import(/* webpackChunkName: "vue-pages" */ './pages/HomePage') // importação que retorna uma promise
+const AboutPage = () => import(/* webpackChunkName: "vue-pages" */ './pages/AboutPage') // importação que retorna uma promise
 
 const routes = [
     {
